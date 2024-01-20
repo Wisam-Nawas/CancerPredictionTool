@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Creative Studio landing page.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+
+
+    <meta name="author" content="Devcrud">
+    <title>MediGuard</title>
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="static/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Creative Studio main styles -->
+    <link rel="stylesheet" href="static/css/creative-studio.css">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("BrYkkmPjDjygtA245");
+        })();
+    </script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+
+    <!-- Page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-lg navbar-dark" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="static/imgs/logo.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Donate</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#test">Test</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Page Navigation -->
+
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+            <h5 class="subtitle"> Hi,</h5>
+            <h1 class="title">MediGuard</h1>
+            <h5 class="subtitle"> here to help you</h5>
+            <div class="buttons text-center">
+                <a href="#test" class="btn btn-primary rounded w-lg btn-lg my-1">Test</a>
+                <a href="#contact" class="btn btn-outline-light rounded w-lg btn-lg my-1">Contact Us</a>
+            </div>
+        </div>
+    </header>
+    <!-- End Of Page Header -->
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 col-lg-4">
+                    <img src="static/imgs/about.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page" class="w-100 img-thumbnail mb-3">
+                </div>
+                <div class="col-md-7 col-lg-8">
+                    <h6 class="section-subtitle mb-0">We Create</h6>
+                    <h6 class="section-title mb-3">Awesome Work</h6>
+                    <p>At MediGuard, we aim to promote and advance the early detection of cancer. We aspire to create a world where no one is blindsided by late-stage cancer.</p>
+                    <p>The website provides innovative detection tools that empower patients to take control of their health and detect diseases early when it's most treatable. We encourage people to be aware of their body and its changes and seek medical
+                        attention if they notice any unusual symptoms. By knowing your body, you can detect cancer early and increase your chances of successful treatment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of About Section -->
+
+    <!-- About Section with bg -->
+    <section class="has-bg-img py-md">
+        <div class="container text-center">
+            <h6 class="section-subtitle">We See</h6>
+            <h6 class="section-title mb-6">What Other Don't See.</h6>
+            <div class="widget mb-4">
+                <div class="widget-item">
+                    <i class="ti-notepad"></i>
+                    <h4>Planning</h4>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-layout"></i>
+                    <h4>Mockup</h4>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-filter"></i>
+                    <h4>Develope</h4>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-thumb-up"></i>
+                    <h4>Provide</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+
+            <h6 class="section-title mb-5 text-center">Donate</h6>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="static/imgs/avatar.jpg">
+                        <div class="card-body">
+                            <!-- <h6 class="small text-primary font-weight-bold">FOUNDER</h6> -->
+                            <h5 class="card-title">In honour</h5>
+                            <p>Pay tribute to a friend, loved one or colleague with a donation to support those touched by cancer. </p>
+                            <div class="socials">
+                                <a href="https://www.aljalilafoundation.ae/what-we-do/treatment/hamdan-bin-rashid-cancer-charity-hospital/" class="btn btn-primary rounded w-lg btn-lg my-1">Donate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="static/imgs/avatar-1.jpg">
+                        <div class="card-body">
+
+                            <h5 class="card-title">In memory</h5>
+                            <p>Celebrate your loved one’s life and memory with a donation to support people affected by cancer today.</p>
+                            <div class="socials">
+                                <a href="https://www.focp.ae/" class="btn btn-primary rounded w-lg btn-lg my-1">Donate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="static/imgs/avatar-2.jpg">
+                        <div class="card-body">
+
+                            <h5 class="card-title">Become a monthly donor</h5>
+                            <p>Join our monthly giving program and provide year-round support to Canadians affected by cancer.</p>
+                            <div class="socials">
+                                <a href="https://shaukatkhanum.org.pk/donations-from-gulf/" class="btn btn-primary rounded w-lg btn-lg my-1">Donate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- End of Team Sectoin -->
+
+    <!-- Fatcs Section -->
+    <section class="has-bg-img bg-img-2">
+        <div class="container text-center">
+            <h6 class="section-subtitle">We Are Awesome</h6>
+            <h6 class="section-title mb-6">Some Fun Fucts</h6>
+            <div class="widget-2">
+                <div class="widget-item">
+                    <i class="ti-cup"></i>
+                    <h6 class="title">100+</h6>
+                    <div class="subtitle">Awards Won</div>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-face-smile"></i>
+                    <h6 class="title">100+</h6>
+                    <div class="subtitle">Happy Clients</div>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-blackboard"></i>
+                    <h6 class="title">845+</h6>
+                    <div class="subtitle">Project Completed</div>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-comments-smiley"></i>
+                    <h6 class="title">15K+</h6>
+                    <div class="subtitle">Comments</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="test">
+
+    <h1 class="mt-5"><strong>Select your symptoms</strong> </h1>
+    <br>
+
+    <form id="symptom-form">
+        <input type="hidden" id="symptom-selections" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
+
+        <select class="form-select" id="symptom-1" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">Lump</option>
+            <option value="2">Cough</option>
+            <option value="3">Chest Pain</option>
+            <option value="4">Shortness of Breath</option>
+            <option value="5">Weight Loss</option>
+            <option value="6">Fatigue</option>
+            <option value="7">Changes in Bowel Habits</option>
+            <option value="8">Changes in Urination</option>
+            <option value="9">Skin Changes</option>
+            <option value="10">Jaundice</option>
+            <option value="11">Skin Lesions</option>
+            <option value="12">Infections</option>
+            <option value="13">Bruising/Bleeding</option>
+            <option value="14">Swollen Lymph Nodes</option>
+            <option value="15">Blood in Urine</option>
+            <option value="16">Pain</option>
+            <option value="17">Fever</option>
+            <option value="18">Headache</option>
+            <option value="19">Nausea</option>
+            <option value="20">Vomiting</option>
+        </select>
+
+        <br>
+        <select class="form-select" id="symptom-2" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">Lump</option>
+            <option value="2">Cough</option>
+            <option value="3">Chest Pain</option>
+            <option value="4">Shortness of Breath</option>
+            <option value="5">Weight Loss</option>
+            <option value="6">Fatigue</option>
+            <option value="7">Changes in Bowel Habits</option>
+            <option value="8">Changes in Urination</option>
+            <option value="9">Skin Changes</option>
+            <option value="10">Jaundice</option>
+            <option value="11">Skin Lesions</option>
+            <option value="12">Infections</option>
+            <option value="13">Bruising/Bleeding</option>
+            <option value="14">Swollen Lymph Nodes</option>
+            <option value="15">Blood in Urine</option>
+            <option value="16">Pain</option>
+            <option value="17">Fever</option>
+            <option value="18">Headache</option>
+            <option value="19">Nausea</option>
+            <option value="20">Vomiting</option>
+        </select>
+
+        <br>
+        <select class="form-select" id="symptom-3" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">Lump</option>
+            <option value="2">Cough</option>
+            <option value="3">Chest Pain</option>
+            <option value="4">Shortness of Breath</option>
+            <option value="5">Weight Loss</option>
+            <option value="6">Fatigue</option>
+            <option value="7">Changes in Bowel Habits</option>
+            <option value="8">Changes in Urination</option>
+            <option value="9">Skin Changes</option>
+            <option value="10">Jaundice</option>
+            <option value="11">Skin Lesions</option>
+            <option value="12">Infections</option>
+            <option value="13">Bruising/Bleeding</option>
+            <option value="14">Swollen Lymph Nodes</option>
+            <option value="15">Blood in Urine</option>
+            <option value="16">Pain</option>
+            <option value="17">Fever</option>
+            <option value="18">Headache</option>
+            <option value="19">Nausea</option>
+            <option value="20">Vomiting</option>
+        </select>
+
+        <br>
+        <select class="form-select" id="symptom-4" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">Lump</option>
+            <option value="2">Cough</option>
+            <option value="3">Chest Pain</option>
+            <option value="4">Shortness of Breath</option>
+            <option value="5">Weight Loss</option>
+            <option value="6">Fatigue</option>
+            <option value="7">Changes in Bowel Habits</option>
+            <option value="8">Changes in Urination</option>
+            <option value="9">Skin Changes</option>
+            <option value="10">Jaundice</option>
+            <option value="11">Skin Lesions</option>
+            <option value="12">Infections</option>
+            <option value="13">Bruising/Bleeding</option>
+            <option value="14">Swollen Lymph Nodes</option>
+            <option value="15">Blood in Urine</option>
+            <option value="16">Pain</option>
+            <option value="17">Fever</option>
+            <option value="18">Headache</option>
+            <option value="19">Nausea</option>
+            <option value="20">Vomiting</option>
+        </select>
+
+        <br>
+        <select class="form-select" id="symptom-5" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">Lump</option>
+            <option value="2">Cough</option>
+            <option value="3">Chest Pain</option>
+            <option value="4">Shortness of Breath</option>
+            <option value="5">Weight Loss</option>
+            <option value="6">Fatigue</option>
+            <option value="7">Changes in Bowel Habits</option>
+            <option value="8">Changes in Urination</option>
+            <option value="9">Skin Changes</option>
+            <option value="10">Jaundice</option>
+            <option value="11">Skin Lesions</option>
+            <option value="12">Infections</option>
+            <option value="13">Bruising/Bleeding</option>
+            <option value="14">Swollen Lymph Nodes</option>
+            <option value="15">Blood in Urine</option>
+            <option value="16">Pain</option>
+            <option value="17">Fever</option>
+            <option value="18">Headache</option>
+            <option value="19">Nausea</option>
+            <option value="20">Vomiting</option>
+        </select>
+
+        <br>
+        <select class="form-select" id="symptom-6" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">Lump</option>
+            <option value="2">Cough</option>
+            <option value="3">Chest Pain</option>
+            <option value="4">Shortness of Breath</option>
+            <option value="5">Weight Loss</option>
+            <option value="6">Fatigue</option>
+            <option value="7">Changes in Bowel Habits</option>
+            <option value="8">Changes in Urination</option>
+            <option value="9">Skin Changes</option>
+            <option value="10">Jaundice</option>
+            <option value="11">Skin Lesions</option>
+            <option value="12">Infections</option>
+            <option value="13">Bruising/Bleeding</option>
+            <option value="14">Swollen Lymph Nodes</option>
+            <option value="15">Blood in Urine</option>
+            <option value="16">Pain</option>
+            <option value="17">Fever</option>
+            <option value="18">Headache</option>
+            <option value="19">Nausea</option>
+            <option value="20">Vomiting</option>
+        </select>
+
+        <br>
+
+    </form>
+    <style>
+        .center-button {
+            text-align: center;
+        }
+    </style>
+    <div class="center-button">
+        <button id="submit-button" type="button" class="btn btn-outline-danger" style="text-align: center;" onclick="disableButton()">Submit</button>
+    </div>
+</section>
+    <script>
+        function disableButton() {
+            document.getElementById("submit-button").disabled = true;  
+        }
+    </script>
+    <br>
+    <div id="result" style="text-align: center; font-size: large;"></div>
+    <script>
+        // Initialize an array to store the selected symptoms (initially all 0)
+        let selectedSymptoms = Array(6).fill(0);
+        let finalSymptoms = Array(20).fill(0);
+
+        // Add change event listeners to each dropdown
+        for (let i = 1; i <= 6; i++) {
+            const symptomDropdown = document.getElementById(`symptom-${i}`);
+            symptomDropdown.addEventListener('change', function() {
+                const selectedValue = parseInt(symptomDropdown.value);
+                // Update the corresponding element in the selectedSymptoms array
+                selectedSymptoms[i - 1] = selectedValue;
+                finalSymptoms[selectedValue - 1] = 1;
+                // For testing, log the selected symptoms
+            });
+        }
+        console.log(finalSymptoms)
+            // Add a click event listener to the submit button
+        document.getElementById('submit-button').addEventListener('click', function() {
+            // Update the hidden input with selected symptoms
+            document.getElementById('symptom-selections').value = finalSymptoms.join(',');
+            // For testing, log the selected symptoms
+            console.log("Selected Symptoms:", selectedSymptoms);
+
+            // Send the data to the server
+            fetch('/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        symptoms: finalSymptoms
+                    }),
+                })
+                .then(response => response.text())
+                .then(data => {
+                    // Handle the response from the server as needed
+                    document.getElementById('result').textContent = "Predicted Cancer: " + data;
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                });
+        });
+    </script>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-card">
+                <div class="infos">
+                    <h6 class="section-subtitle">Get Here</h6>
+                    <h6 class="section-title mb-4">Contact Us</h6>
+
+                    <div class="item">
+                        <i class="ti-location-pin"></i>
+                        <div class="">
+                            <h5>Location</h5>
+                            <p> 12345 Fake ST NoWhere AB Country</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-mobile"></i>
+                        <div>
+                            <h5>Phone Number</h5>
+                            <p>(123) 456-7890</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="mb-0">
+                            <h5>Email Address</h5>
+                            <p>info@website.com</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-world"></i>
+                        <div class="mb-0">
+                            <h5>example.com</h5>
+                            <p>info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <h6 class="section-subtitle">Available 24/7</h6>
+                    <h6 class="section-title mb-4">Get In Touch</h6>
+                    <form>
+                        <div class="form-group">
+                            <input type="name" class="form-control form-control-lg" id="name" placeholder="Enter Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" cols="30" rows="7" class="form-control form-control-lg" placeholder="Enter Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg mt-3" onclick="sendMail()">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section class="has-bg-img py-0">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-lists">
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">ABOUT US</h6>
+                        </li>
+                        <li class="list-body">
+                            <a href="#" class="logo">
+                                <img src="static/imgs/logo.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                                <h6>Creative Studio</h6>
+                            </a>
+                            <p>The website provides innovative detection tools that empower patients to take control of their health and detect diseases early when it's most treatable. We encourage people to be aware of their body and its changes and seek
+                                medical attention if they notice any unusual symptoms. By knowing your body, you can detect cancer early and increase your chances of successful treatment</p>
+                            <p class="mt-3">
+                                Copyright
+                                <script>
+                                    document.write(new Date().getFullYear())
+                                </script> &copy; <a class="d-inline text-primary" href="http://www.devcrud.com">DevCRUD</a>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">USEFUL LINKS</h6>
+                        </li>
+                        <li class="list-body">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#about">About</a>
+                                    <a href="#service">Service</a>
+                                    <a href="#portfolio">Portfolio</a>
+                                    <a href="#testmonail">Testimonial</a>
+                                </div>
+                                <div class="col">
+                                    <a href="#team">Team</a>
+                                    <a href="#blog">Blog</a>
+                                    <a href="#">Faq</a>
+                                    <a href="#">Privacy Policy</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">CONTACT INFO</h6>
+                        </li>
+                        <li class="list-body">
+                            <p>Contact us and we'll get back to you within 24 hours.</p>
+                            <p><i class="ti-location-pin"></i> 12345 Fake ST NoWhere AB Country</p>
+                            <p><i class="ti-email"></i> info@website.com</p>
+                            <div class="social-links">
+                                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- core  -->
+    <script src="static/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="static/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="static/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Creative Studio js -->
+    <script src="static/js/script.js"></script>
+    <script src="static/js/index.js"></script>
+
+</body>
+
+</html>
